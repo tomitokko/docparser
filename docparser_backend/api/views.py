@@ -9,6 +9,10 @@ from rest_framework.response import Response
 import base64
 import json
 import re
+from dotenv import load_dotenv
+
+load_dotenv()
+
 
 # Create your views here.
 class DocumentUploadView(APIView):
